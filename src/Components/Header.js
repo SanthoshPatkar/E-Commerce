@@ -1,25 +1,51 @@
 import React from "react";
 import "../CSS/header.css";
+import SearchIcon from "@material-ui/icons/Search";
+import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 
 function Header() {
   return (
     <div className="header">
       <img className="header_logo" src="../images/Amazon-logo.png" alt="" />
-      <div className="header_address"></div>
-      <div className="header-search">
-        <input className="header-input-search" type="text"></input>
+      <div className="header_address">
+        <span className="header_option1">Hello</span>
+        <span className="header_option2">Select your address</span>
       </div>
-      <div className="header-nav">
-        <div className="header-option">
-          <span className="header_option1">country-logo</span>
+      <div className="header_search">
+        <div className="all_search">
+          <select name="category">
+            <option value="all">All</option>
+            <option value="deals">Deals</option>
+            <option value="accesories">Accesories</option>
+            <option value="gift">Giftcards</option>
+          </select>
         </div>
-        <div className="header-option">
-          <span className="header-option1">Hello, signin</span>
-          <span className="header-option2">Accounts & list</span>
+        <input className="header_input_search" type="text"></input>
+        <SearchIcon className="header_search_icon" />
+      </div>
+      <div className="header_nav">
+        <div className="header_option">
+          <span className="header_option_l">
+            <select name="category">
+              <option value="india">India</option>
+              <option value="deals">Deals</option>
+              <option value="accesories">Accesories</option>
+              <option value="gift">Giftcards</option>
+            </select>
+          </span>
         </div>
-        <div className="header-option">
-          <span className="header-option1">Returns</span>
-          <span className="header-option2">&Orders</span>
+        <div className="header_option">
+          <span className="header_option1">Hello, signin</span>
+          <span className="header_option2">Accounts & list</span>
+        </div>
+        <div className="header_option">
+          <span className="header_option1">Returns</span>
+          <span className="header_option2">&Orders</span>
+        </div>
+        <div className="header_basket">
+          <ShoppingBasketIcon className="basket" />
+          <span className="header_option2 header_navcount">0</span>
+          <p>cart</p>
         </div>
       </div>
     </div>
