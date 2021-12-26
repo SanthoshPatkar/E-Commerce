@@ -1,6 +1,7 @@
 import React from "react";
 import "../CSS/home.css";
 import { Carousel } from "react-bootstrap";
+import Product from "./Product";
 
 function Home() {
   return (
@@ -35,7 +36,9 @@ function Home() {
 
       {/* items */}
 
-      <div className="home_row"></div>
+      <div className="home_row">
+        <Product />
+      </div>
       <div className="home_row"></div>
       <div className="home_row"></div>
       <div className="home_row"></div>

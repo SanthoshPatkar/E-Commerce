@@ -1,0 +1,11 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  margin-top: -320px;
+}
+.product > img {
+  max-width: 27%;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
