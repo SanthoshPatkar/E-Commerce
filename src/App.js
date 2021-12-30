@@ -1,13 +1,25 @@
 import "./App.css";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Checkout from "./Components/Checkout";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import { Switch } from "react-router";
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Home />
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Switch>
+          <Route path="/checkout">
+            <h2>Hello madam</h2>
+            <Checkout />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

@@ -32,7 +32,7 @@
   height: 20px;
 }
 .all_search > select {
-  height: 32px;
+  height: 42px;
   padding-left: 5px;
   width: 60px;
   border: none;
@@ -40,7 +40,7 @@
   border-bottom-left-radius: 5px;
 }
 .header_input_search {
-  height: 32px;
+  height: 22px;
   padding: 10px;
   border: none;
   width: 100%;
@@ -53,6 +53,7 @@
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
 .header_option1,
 .header_option2 {
   color: white;
@@ -84,6 +85,7 @@
 .header_option {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-left: 10px;
   margin-right: 10px;
   color: white;

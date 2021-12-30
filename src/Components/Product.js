@@ -1,13 +1,13 @@
 import React from "react";
 import "../CSS/product.css";
 
-function Product() {
+function Product({ info, img }) {
   return (
     <div className="product">
       <div className="product_info">
-        <h2>Up to 70% off | Electronics clearance store</h2>
+        <h2>{info}</h2>
       </div>
-      <img src="../images/product-img-1.jpg" alt="" />
+      <img src={img} alt="" />
       <button>
         <p>see more..</p>
       </button>
