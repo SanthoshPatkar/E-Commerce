@@ -18,6 +18,11 @@
   border-radius: 5px;
   border: 1px solid black;
 }
+.title_pro {
+  line-height: 40px;
+  font-weight: 100;
+  font-size: 20px;
+}
 
 .pro_row {
   display: flex;

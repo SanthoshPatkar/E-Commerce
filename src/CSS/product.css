@@ -18,12 +18,10 @@
   object-fit: fill;
   margin-bottom: 15px;
 }
-.product > button {
-  background-color: white;
-  border: none;
-}
-.product > button > p {
-  color: blue;
+.product > p {
+  line-height: 30px;
+  font-weight: 500;
+  color: blue !important;
 }
 .product_info {
   height: 130px;

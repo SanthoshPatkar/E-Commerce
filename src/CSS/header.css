@@ -97,7 +97,6 @@
 .header_navcount {
   margin: 0 5px;
 }
-.header_basket,
-p {
+.header_basket > p {
   color: white;
 }
