@@ -40,7 +40,7 @@
   border-bottom-left-radius: 5px;
 }
 .header_input_search {
-  height: 22px;
+  height: 42px;
   padding: 10px;
   border: none;
   width: 100%;
@@ -49,7 +49,7 @@
   padding: 5px;
   width: 40px !important;
   background-color: #f39f2b;
-  height: 32px !important;
+  height: 42px !important;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
