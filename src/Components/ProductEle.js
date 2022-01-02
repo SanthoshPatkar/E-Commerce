@@ -3,8 +3,8 @@ import "../CSS/Product_electronics.css";
 import { useStateValue } from "./StateProvider";
 
 function ProductEle({ id, img, desc, rating, price }) {
-  const [state, dispatch] = useStateValue();
-
+  const [{ basket }, dispatch] = useStateValue();
+  console.log("hello", basket);
   const addToBasket = () => {
     dispatch({
       type: "ADD_TO_BASKET",
