@@ -1,7 +1,22 @@
 import React from "react";
 import "../CSS/Product_electronics.css";
+import { useStateValue } from "./StateProvider";
 
-function ProductEle({ img, desc, rating, price }) {
+function ProductEle({ id, img, desc, rating, price }) {
+  const [state, dispatch] = useStateValue();
+
+  const addToBasket = () => {
+    dispatch({
+      type: "ADD_TO_BASKET",
+      item: {
+        id: id,
+        img: img,
+        desc: desc,
+        price: price,
+        rating: rating,
+      },
+    });
+  };
   return (
     <div className="Product_Ele">
       <img src={img} alt="" />
@@ -13,7 +28,7 @@ function ProductEle({ img, desc, rating, price }) {
         <p>{rating}</p>
         <p>{price}</p>
       </div>
-      <button>Add To Busket</button>
+      <button onClick={addToBasket}>Add To Basket</button>
     </div>
   );
 }
