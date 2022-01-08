@@ -2,7 +2,9 @@ import React from "react";
 import "../CSS/Product_electronics.css";
 import { useStateValue } from "./StateProvider";
 
-function ProductEle({ id, img, desc, rating, price }) {
+function ProductEle({ id, img, desc, rating, price, p }) {
+  var Price = parseInt(p);
+  console.log(Price);
   const [{ basket }, dispatch] = useStateValue();
   console.log("hello", basket);
   const addToBasket = () => {
@@ -12,7 +14,7 @@ function ProductEle({ id, img, desc, rating, price }) {
         id: id,
         img: img,
         desc: desc,
-        price: price,
+        Price: Price,
         rating: rating,
       },
     });
@@ -26,7 +28,7 @@ function ProductEle({ id, img, desc, rating, price }) {
 
       <div className="bottom">
         <p>{rating}</p>
-        <p>{price}</p>
+        <p>₹{price}</p>
       </div>
       <button onClick={addToBasket}>Add To Basket</button>
     </div>
