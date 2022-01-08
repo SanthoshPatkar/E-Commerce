@@ -1,0 +1,31 @@
+.checkoutproduct {
+  max-height: 400px;
+  display: flex;
+  margin: 25px 15px 15px 15px;
+  box-sizing: border-box;
+  padding-bottom: 15px;
+  border-bottom: 0.75px solid black;
+}
+.checkoutproduct > img {
+  height: 230px;
+  width: 230px;
+  object-fit: contain;
+}
+.checkpro_info {
+  margin: 10px 25px 10px 25px;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.checkpro_price {
+  margin-left: auto;
+  float: right;
+}
+.sub_button {
+  width: 80px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  border-right: 1px solid black;
+}

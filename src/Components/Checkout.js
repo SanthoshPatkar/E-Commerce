@@ -3,6 +3,7 @@ import "../CSS/checkout.css";
 import CurrencyFormat from "react-currency-format";
 import { useStateValue } from "./StateProvider";
 import { getBasketTotal } from "./reducer";
+import Checkoutproduct from "../Components/Checkoutproduct";
 
 function Checkout() {
   const [{ basket }, dispatch] = useStateValue();
@@ -10,7 +11,16 @@ function Checkout() {
     <div className="checkout">
       <div className="checkout_left">
         <div className="checkout_title">
-          <h2>Shopping Cart</h2>
+          <h2 className="cart_header">Shopping Cart</h2>
+          <hr />
+          {basket.map((item) => (
+            <Checkoutproduct
+              id={item.id}
+              desc={item.desc}
+              img={item.img}
+              price={item.dis_price}
+            />
+          ))}
         </div>
       </div>
       <div className="checkout_right">
@@ -33,7 +43,7 @@ function Checkout() {
             thousandSeparator={true}
             prefix={"₹ "}
           />
-          <button>processed to buy</button>
+          <button className="check_button">processed to buy</button>
         </div>
       </div>
     </div>

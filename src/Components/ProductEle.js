@@ -16,6 +16,7 @@ function ProductEle({ id, img, desc, rating, price, p }) {
         desc: desc,
         Price: Price,
         rating: rating,
+        dis_price: price,
       },
     });
   };
@@ -30,7 +31,9 @@ function ProductEle({ id, img, desc, rating, price, p }) {
         <p>{rating}</p>
         <p>₹{price}</p>
       </div>
-      <button onClick={addToBasket}>Add To Basket</button>
+      <button className="basket_button" onClick={addToBasket}>
+        Add To Basket
+      </button>
     </div>
   );
 }
