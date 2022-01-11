@@ -4,7 +4,7 @@ import Home from "./Components/Home";
 import Checkout from "./Components/Checkout";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ProductElectronics from "./Components/ProductElectronics";
-import Login from "./Components/Login";
+import Login from "./Login";
 // import { Switch } from "react-router";
 function App() {
   return (

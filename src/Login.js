@@ -1,22 +1,22 @@
 import React, { useState } from "react";
-import "../CSS/login.css";
-import { Link } from "react-router-dom";
-import { auth } from "../firebase";
+import "./CSS/login.css";
+import { Link, useHistory } from "react-router-dom";
+import { auth } from "./firebase";
 
 function Login() {
   const [email, setEmail] = useState("");
-  const [Password, setPassword] = useState("");
+  const [password, setPassword] = useState("");
   const signIn = (e) => {
     e.preventDefault();
   };
   const register = (e) => {
     e.preventDefault();
     auth
-      .createuserwithemailandpassword(email, Password)
+      .createUserWithEmailAndPassword(email, password)
       .then((auth) => {
         console.log(auth);
       })
-      .catch((error) => error.message);
+      .catch((error) => alert(error.message));
   };
 
   return (
@@ -40,7 +40,7 @@ function Login() {
           <h5>Password</h5>
           <input
             type="password"
-            value={Password}
+            value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
           <button type="submit" onClick={signIn} className="login_signin">
