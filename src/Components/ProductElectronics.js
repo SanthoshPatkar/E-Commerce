@@ -4,7 +4,7 @@ import ProductEle from "./ProductEle";
 
 function ProductElectronics() {
   return (
-    <div className="product_electronics">
+    <div className="product_item">
       <div className="head">
         <h6 className="title_pro">All Categories</h6>
       </div>

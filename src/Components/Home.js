@@ -21,7 +21,7 @@ function Home() {
         <Product
           info="Revamp your home in style"
           img="../images/product-img-2.jpg"
-          link="/ProductElectronics"
+          link="/ProductHome"
         />
         <Product
           info="Styles for Men | Up to 70% off"

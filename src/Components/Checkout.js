@@ -6,12 +6,13 @@ import { getBasketTotal } from "./reducer";
 import Checkoutproduct from "../Components/Checkoutproduct";
 
 function Checkout() {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket, user }, dispatch] = useStateValue();
   return (
     <div className="checkout">
       <div className="checkout_left">
         <div className="checkout_title">
           <h2 className="cart_header">Shopping Cart</h2>
+          <h5>He, {user?.email}</h5>
           <hr />
           {basket.map((item) => (
             <Checkoutproduct
