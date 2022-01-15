@@ -6,6 +6,7 @@ import Checkout from "./Components/Checkout";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ProductElectronics from "./Components/ProductElectronics";
 import ProductHome from "./Components/ProductHome";
+import Backto from "./Components/backto";
 import Login from "./Login";
 import { auth } from "./firebase";
 import { useStateValue } from "./Components/StateProvider";
@@ -39,18 +40,22 @@ function App() {
           <Route path="/productElectronics">
             <Header />
             <ProductElectronics />
+            <Backto />
           </Route>
           <Route path="/productHome">
             <Header />
             <ProductHome />
+            <Backto />
           </Route>
           <Route path="/checkout">
             <Header />
             <Checkout />
+            <Backto />
           </Route>
           <Route path="/">
             <Header />
             <Home />
+            <Backto />
           </Route>
         </Switch>
       </div>

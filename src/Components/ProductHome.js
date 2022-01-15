@@ -6,7 +6,7 @@ import ProductEle from "./ProductEle";
 function ProductHome() {
     return (
         <div className="product_item">
-        <div className="head">
+        <div className="head"> 
           <h6 className="title_pro">story at home coop</h6>
         </div>
         <div className="pro_row">
