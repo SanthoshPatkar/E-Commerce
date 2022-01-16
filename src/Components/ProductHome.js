@@ -12,7 +12,7 @@ function ProductHome() {
         <div className="pro_row">
           <ProductEle
             id="pro21"
-            img="https://m.media-amazon.com/images/I/71uAV6B68CL._AC_UL480_QL65_.jpg"
+            img="../images/pro21.jpg"
             desc="Story@Home Sensational 100% Cotton Soft Bath Towel Single Piece, 450 GSM - Men and Women Bath Towel -Navy Blue"
             rating="⭐⭐⭐⭐"
             price="379"
@@ -20,7 +20,7 @@ function ProductHome() {
           />
           <ProductEle
             id="pro22"
-            img="https://m.media-amazon.com/images/I/71a6BvsDBCS._AC_UL480_QL65_.jpg"
+            img="../images/pro22.jpg"
             desc="Story@Home Stone Modern Door Mat (Brown, Fabric, 40x60cm)."
             rating="⭐⭐⭐⭐"
             price="209"
@@ -28,7 +28,7 @@ function ProductHome() {
           />
           <ProductEle
             id="pro23"
-            img="https://m.media-amazon.com/images/I/61hB5pFQTsL._AC_UL480_QL65_.jpg"
+            img="../images/pro23.jpg"
             desc="Story@Home Faux Silk Solid Ring top Window Curtain, 5 feet, Navy Blue, 2 Pieces"
             rating="⭐⭐⭐⭐"
             price="829"
@@ -38,7 +38,7 @@ function ProductHome() {
         <div className="pro_row">
           <ProductEle
             id="pro24"
-            img="https://m.media-amazon.com/images/I/81m5m6IvVjS._AC_UL480_QL65_.jpg"
+            img="../images/pro24.jpg"
             desc="Story@Home Super-Soft Beautiful Tropical Patterns Printed Vibrant Colors 100% Cotton Double Flat Sheets Bedsheet"
             rating="⭐⭐⭐⭐⭐"
             price="619"
@@ -46,7 +46,7 @@ function ProductHome() {
           />
           <ProductEle
             id="pro25"
-            img="https://m.media-amazon.com/images/I/61HLjJ6WftL._AC_UL480_QL65_.jpg"
+            img="../images/pro25.jpg"
             desc="Story@Home Blackout Faux Silk Superior 2 Piece Plain Solid Window Curtains, 5 feet, Black"
             rating="⭐⭐⭐"
             price="858"
@@ -54,7 +54,7 @@ function ProductHome() {
           />
           <ProductEle
             id="pro26"
-            img="https://m.media-amazon.com/images/I/81CsptXOsHL._AC_UL480_QL65_.jpg"
+            img="../images/pro26.jpg"
             desc="Story@Home Premium Forever Modern Style Fine Cotton Luxurious Beautiful Silky Soft Comfort Designer Floral Pattern 1 King Size Bedsheet and 2 Pillow Cover"
             rating="⭐⭐⭐⭐"
             price="1,048"
@@ -64,7 +64,7 @@ function ProductHome() {
         <div className="pro_row">
           <ProductEle
             id="pro27"
-            img="https://m.media-amazon.com/images/I/81SZQgWotpL._AC_UL480_FMwebp_QL65_.jpg"
+            img="../images/pro27.webp"
             desc="Story@Home Cotton Bath and Hand Towel Set 450 GSM (Lime and Navy, Set of 6 Piece)"
             rating="⭐⭐⭐⭐⭐"
             price="849"
@@ -72,7 +72,7 @@ function ProductHome() {
           />
           <ProductEle
             id="pro28"
-            img="https://m.media-amazon.com/images/I/610T38A7jqL._AC_UL480_FMwebp_QL65_.jpg"
+            img="../images/pro28.webp"
             desc="Make it Yours 100% Cotton Single Bed (230 x 150 cms) Reversible 3 Layered AC Dohar/AC Comforter/Quilt for Summer"
             rating="⭐⭐⭐⭐⭐"
             price="1,399"
@@ -80,7 +80,7 @@ function ProductHome() {
           />
           <ProductEle
             id="pro29"
-            img="https://m.media-amazon.com/images/I/A1pPbVl85uL._AC_UL480_FMwebp_QL65_.jpg"
+            img="../images/pro29.webp"
             desc="Story@Home Polyester Striped Door Curtain, 7 feet, Navy Blue, Pack of 2"
             rating="⭐⭐⭐⭐"
             price="779"

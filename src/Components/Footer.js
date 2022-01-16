@@ -74,53 +74,65 @@ function Footer() {
       <div className="bottom_bar">
         <div className="content_info">
           <div className="above">
-            <h6 >AbeBooks</h6>
-            <p >Books, art</p>
-            <p >& collectibles</p>
-          </div>
-          <div className="below">
-            <h6 >Shopbop</h6>
-            <p >Designer</p>
-            <p >Fashion Brands</p>
-          </div>
-        </div>
-        <div className="content_info">
-        <div className="above">
-            <h6 >AbeBooks</h6>
-            <p>Books, art</p>
-            <p>& collectibles</p>
-          </div>
-          <div className="below">
-            <h6 >Shopbop</h6>
-            <p >Designer</p>
-            <p >Fashion Brands</p>
-          </div>
-        </div>
-        <div className="content_info">
-        <div className="above">
-            <h6 >AbeBooks</h6>
+            <h6>AbeBooks</h6>
             <p>Books, art</p>
             <p>& collectibles</p>
           </div>
           <div className="below">
             <h6>Shopbop</h6>
             <p>Designer</p>
-            <p >Fashion Brands</p>
+            <p>Fashion Brands</p>
           </div>
         </div>
         <div className="content_info">
-        <div className="above">
-            <h6>AbeBooks</h6>
-            <p>Books, art</p>
-            <p>& collectibles</p>
+          <div className="above">
+            <h6>Amazon Web Services</h6>
+            <p>Scalable Cloud</p>
+            <p>Computing Services</p>
+          </div>
+          <div className="below">
+            <h6>Amazon Business</h6>
+            <p>Everything For</p>
+            <p>Your Business</p>
+          </div>
+        </div>
+        <div className="content_info">
+          <div className="above">
+            <h6>Audible</h6>
+            <p>Download</p>
+            <p>Audio Books</p>
+          </div>
+          <div className="below">
+            <h6>prime Now</h6>
+            <p>2-Hour Delivery</p>
+            <p>On Every Items</p>
+          </div>
+        </div>
+        <div className="content_info">
+          <div className="above">
+            <h6>DPReview</h6>
+            <p>Digital</p>
+            <p>Photograpy</p>
+          </div>
+          <div className="below">
+            <h6>Amazon Prime Music</h6>
+            <p>75 million songs, ad-free</p>
+            <p >Over 10 million podcast episodes</p>
+          </div>
+        </div>
+        <div className="content_info">
+          <div className="above">
+            <h6>IMDb</h6>
+            <p>Movies, TV</p>
+            <p>& Celebrities</p>
           </div>
         </div>
       </div>
       <div className="bottom_terms">
-          <p>Conditions of Use & Sale</p>
-          <p>Fake Amazon Clone</p>
-          <p>© Santhosh G Patkar</p>
-        </div>
+        <p>Conditions of Use & Sale</p>
+        <p>Fake Amazon Clone</p>
+        <p>© Santhosh G Patkar</p>
+      </div>
     </div>
   );
 }
