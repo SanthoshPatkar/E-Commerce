@@ -11,6 +11,7 @@ import Footer from "./Components/Footer";
 import Login from "./Login";
 import { auth } from "./firebase";
 import { useStateValue } from "./Components/StateProvider";
+import Navbar from "./Components/Navbar";
 // import { Switch } from "react-router";
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -40,24 +41,28 @@ function App() {
           </Route>
           <Route path="/productElectronics">
             <Header />
+            <Navbar />
             <ProductElectronics />
             <Backto />
             <Footer />
           </Route>
           <Route path="/productHome">
             <Header />
+            <Navbar />
             <ProductHome />
             <Backto />
             <Footer />
           </Route>
           <Route path="/checkout">
             <Header />
+            <Navbar />
             <Checkout />
             <Backto />
             <Footer />
           </Route>
           <Route path="/">
             <Header />
+            <Navbar />
             <Home />
             <Backto />
             <Footer />
