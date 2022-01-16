@@ -1,20 +1,52 @@
 import React from "react";
 import "../CSS/home.css";
 import Product from "./Product";
+import Carousel from "react-bootstrap/Carousel";
 
 function Home() {
   return (
     <div className="home">
       <div className="home_container"></div>
       {/* slider */}
-      <img className="banner_image" src="../images/amazon-banner1.jpg" alt="" />
+      {/* <img className="banner_image" src="../images/amazon-banner1.jpg" alt="" /> */}
+        <Carousel className="banner_image">
+          <Carousel.Item interval={2000}>
+            <img
+              className=" w-100"
+              src="../images/amazon-banner1.jpg"
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item interval={2000}>
+            <img
+              className=" w-100"
+              src="../images/banner-img-2.jpg"
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item interval={2000}>
+            <img
+              className=" w-100"
+              src="../images/banner-img-3.jpg"
+              alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item interval={2000}>
+            <img
+              className=" w-100"
+              src="../images/banner-img-4.jpg"
+              alt="Fourth slide"
+            />
+          </Carousel.Item>
+        </Carousel>
+
       {/* end slider  */}
 
       {/* items */}
 
       <div className="home_row">
         <Product
-          info="Up to 70% off | Electronics clearance store"
+          info="Up to 70% off | Electronics store"
           img="../images/product-img-1.jpg"
           link="/ProductElectronics"
         />
@@ -25,7 +57,7 @@ function Home() {
         />
         <Product
           info="Styles for Men | Up to 70% off"
-          img="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/4-min._SY116_CB666463598_.jpg"
+          img="../images/pro-img-3.jpg"
           link="/ProductElectronics"
         />
       </div>
