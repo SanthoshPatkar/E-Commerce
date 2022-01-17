@@ -3,7 +3,7 @@ import "../CSS/Navbar.css";
 
 function Navbar() {
   return (
-    <div className="navbar">
+    <div className="navbarr">
       <p>All</p>
       <p>Fresh</p>
       <p>Amazon Pay</p>

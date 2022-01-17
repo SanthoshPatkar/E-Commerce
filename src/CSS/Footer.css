@@ -6,8 +6,8 @@
     padding: 40px 5%;
     border-bottom: 0.2px solid grey;
 }
-.content_info > p,h5 {
-    padding: 4px;
+.content_info > p, .content_info > h5 {
+    padding: 2px;
     font-size: 14px;
 }
 .content_info > p {

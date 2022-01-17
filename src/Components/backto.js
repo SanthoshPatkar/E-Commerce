@@ -3,7 +3,7 @@ import "../CSS/backto.css"
 
 function Backto() {
     return (
-        <a href="">
+        <a href="" className="link">
             <div className='backto'>
                    <h4 className='backto_text'>Back to top</h4>
             </div>

@@ -1,13 +1,13 @@
-.navbar {
+.navbarr {
     height: 35px;
     width: 100%;
     background-color: #232f3e;
     color: #FFF;
     display: flex;
     align-items: center;
-    padding: 0 2%;
+    padding: 0 3%;
 }
-.navbar >p {
+.navbarr >p {
     padding: 0 0.75%;
     font-family:inherit;
     font-size: 14px;

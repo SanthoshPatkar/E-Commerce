@@ -47,7 +47,7 @@ function Header() {
             </select>
           </span>
         </div>
-        <Link to={!user && "/login"}>
+        <Link to={!user && "/login"} className="link">
           <div onClick={handleAuthenticaton} className="header_option">
             <span className="header_option1">Hello, signin</span>
             <span className="header_option2">
@@ -60,7 +60,7 @@ function Header() {
           <span className="header_option2">&Orders</span>
         </div>
 
-        <Link to="/Checkout">
+        <Link to="/Checkout" className="link">
           <div className="header_basket">
             <ShoppingBasketIcon className="basket" />
             <span className="header_option2 header_navcount">

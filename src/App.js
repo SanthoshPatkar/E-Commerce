@@ -6,6 +6,7 @@ import Checkout from "./Components/Checkout";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ProductElectronics from "./Components/ProductElectronics";
 import ProductHome from "./Components/ProductHome";
+import Productmen from "./Components/Productmen";
 import Backto from "./Components/backto";
 import Footer from "./Components/Footer";
 import Login from "./Login";
@@ -57,6 +58,13 @@ function App() {
             <Header />
             <Navbar />
             <Checkout />
+            <Backto />
+            <Footer />
+          </Route>
+          <Route path="/productmen">
+            <Header />
+            <Navbar />
+            <Productmen />
             <Backto />
             <Footer />
           </Route>

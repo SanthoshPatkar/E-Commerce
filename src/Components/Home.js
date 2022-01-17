@@ -58,7 +58,7 @@ function Home() {
         <Product
           info="Styles for Men | Up to 70% off"
           img="../images/pro-img-3.jpg"
-          link="/ProductElectronics"
+          link="/Productmen"
         />
       </div>
       <div className="home_row">
