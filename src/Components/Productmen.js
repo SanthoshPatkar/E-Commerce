@@ -70,20 +70,20 @@ function Productmen() {
           p="1800.00"
         />
         <ProductEle
-          id="pro28"
-          img="../images/pro28.webp"
-          desc="Make it Yours 100% Cotton Single Bed (230 x 150 cms) Reversible 3 Layered AC Dohar/AC Comforter/Quilt for Summer"
+          id="pro38"
+          img="../images/pro38.webp"
+          desc="Fossil Grant Chronograph Black Dial Men's Watch-FS4832"
           rating="⭐⭐⭐⭐⭐"
-          price="1,399"
-          p="1399"
+          price="6,846"
+          p="6846"
         />
         <ProductEle
-          id="pro29"
-          img="../images/pro29.webp"
-          desc="Story@Home Polyester Striped Door Curtain, 7 feet, Navy Blue, Pack of 2"
+          id="pro39"
+          img="../images/pro39.jpg"
+          desc="Fila Men's Dual Speed Running Shoes"
           rating="⭐⭐⭐⭐"
-          price="779"
-          p="779"
+          price="1,126"
+          p="1126"
         />
       </div>
     </div>
