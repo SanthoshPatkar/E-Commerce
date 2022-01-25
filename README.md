@@ -1,5 +1,5 @@
 ### `Tools`
- React,firebase,bootstrap
+ React, firebase, bootstrap
 
 ### `npm init`
 
